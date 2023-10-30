@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* ======================================================================= */
+
+.bg-css {
+  background-image: url('../public/media/blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border-red {
+  @apply border-2 border-solid border-red-500;
+}
+
+.bgi-css:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
